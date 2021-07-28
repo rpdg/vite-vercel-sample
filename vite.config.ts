@@ -105,9 +105,9 @@ export default defineConfig({
 			// { find: 'vue-i18n', replacement: 'vue-i18n/dist/vue-i18n.runtime.esm-bundler.js' },
 		],
 	},
-	optimizeDeps: {
-		include: ['axios', 'vue-router', 'ant-design-vue', 'vue' , 'moment'],
-	},
+	// optimizeDeps: {
+	// 	include: ['axios', 'vue-router', 'ant-design-vue', 'vue' , 'moment'],
+	// },
 	server: {
 		host: '0.0.0.0',
 		hmr: {
