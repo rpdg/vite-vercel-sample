@@ -15,10 +15,15 @@
 		"company": "Company"
 	},
 	"meetingRequests": {
-		"online" : "Online",
-		"offline" : "Offline",
-		"waiting" : "Waiting",
-		"waiting_confirm" : "Waiting to confirm",
-		"invited_surfix" : " invited you to attend an online meeting"
+		"online": "Online",
+		"offline": "Offline",
+		"waiting": "Waiting",
+		"waiting_confirm": "Waiting to confirm",
+		"invited_surfix": " invited you to attend an online meeting"
+	},
+	"help": {
+		"enter": "Enter",
+		"contact_sponsor": "Contact the sponsor",
+		"want_settle": "I want to settle into"
 	}
 }

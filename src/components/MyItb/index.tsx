@@ -1,13 +1,43 @@
 import { MyItbModule } from '@/common/MyItbModules';
 import authenStore from '@/stores/AuthenStore';
+import { SyncOutlined } from '@ant-design/icons-vue';
 import { defineAsyncComponent, defineComponent, PropType } from 'vue';
 
-const Coupons = defineAsyncComponent(() => import('./Coupons'));
-const ChatSection = defineAsyncComponent(() => import('./ChatSection'));
-const Favourites = defineAsyncComponent(() => import('./Favourite'));
-const LoginSection = defineAsyncComponent(() => import('./LoginSection'));
-const MeetingRequests = defineAsyncComponent(() => import('./MeetingRequests'));
+const loadingComponent = (
+	<div style={{ padding: '50px', textAlign: 'center' }}>
+		<SyncOutlined spin />
+	</div>
+);
 
+const Coupons = defineAsyncComponent({
+	loader: () => import('./Coupons'),
+	loadingComponent,
+});
+
+const ChatSection = defineAsyncComponent({
+	loader: () => import('./Chat'),
+	loadingComponent,
+});
+
+const Favourites = defineAsyncComponent({
+	loader: () => import('./Favourite'),
+	loadingComponent,
+});
+
+const LoginSection = defineAsyncComponent({
+	loader: () => import('./LoginSection'),
+	loadingComponent,
+});
+
+const MeetingRequests = defineAsyncComponent({
+	loader: () => import('./MeetingRequests'),
+	loadingComponent,
+});
+
+const Help = defineAsyncComponent({
+	loader: () => import('./Help'),
+	loadingComponent,
+});
 
 export default defineComponent({
 	props: {
@@ -20,7 +50,7 @@ export default defineComponent({
 	setup(props) {
 		function renderModule() {
 			let jsx;
-			
+
 			if (!authenStore.token) {
 				return <LoginSection />;
 			}
@@ -38,8 +68,11 @@ export default defineComponent({
 				case MyItbModule.Meeting:
 					jsx = <MeetingRequests />;
 					break;
+				case MyItbModule.Help:
+					jsx = <Help />;
+					break;
 				default:
-					jsx = <p>404</p>;
+					jsx = loadingComponent;
 			}
 			return jsx;
 		}
