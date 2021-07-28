@@ -1,24 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-    <style>
-    #app {
-      font-family: Avenir, Helvetica, Arial, sans-serif;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-      text-align: center;
-      color: #2c3e50;
-      margin-top: 60px;
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="shortcut icon" type="image/x-icon"
+    href="http://www.itb-china.com/wp-content/themes/thekeynote-child/images/favicon.ico" />
+  <link rel="icon" type="image/png"
+    href="http://www.itb-china.com/wp-content/themes/thekeynote-child/images/favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--[if IE]>
+  <script>
+    alert('IE is not supported on our site.');
+  </script>
+  <![endif]-->
+  <title>ITB Plus</title>
+  <style>
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+      cursor: pointer;
     }
-    </style>
-    
-  </head>
-  <body>
-    <div id="app"></div>
-    <script defer type="module" src="/src/main.ts"></script>
-  </body>
+
+    ::-webkit-scrollbar-thumb {
+      background: rgba(0, 0, 0, 0.1);
+      border-radius: 4px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: rgba(0, 0, 0, 0.3);
+    }
+
+    html,
+    body,
+    #app {
+      margin: 0;
+      height: 100%;
+      overflow: hidden;
+      background-color: #f5f5f5;
+    }
+
+    #app {
+      width: 100%;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app"></div>
+  <script defer type="module" src="/src/main.ts"></script>
+</body>
+
 </html>

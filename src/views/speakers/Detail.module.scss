@@ -1,0 +1,62 @@
+@import '@/common/styleVars.scss';
+
+// page classes
+
+
+.detailCard {
+	@extend .radius_4;
+	@extend .pd_20;
+	@extend .bg_white;
+
+	display: grid;
+	grid-template-columns: 120px 1fr;
+	grid-template-rows: 120px 1fr;
+	grid-gap: 12px 20px;
+
+	> .avatar {
+		@extend .squareItem;
+		@extend .radius_2;
+		border: 1px solid #ddd;
+		width: 120px;
+	}
+
+	> .profile {
+		> .name {
+			margin-bottom: 1em;
+		}
+
+		> p {
+			@extend .text_gray;
+		}
+	}
+
+	.bio {
+		padding: 0;
+		margin: 20px 0 0;
+		font-weight: 600;
+	}
+
+	> .descr {
+		@extend .text_gray;
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+}
+
+
+.speechItem{
+    width: 100%;
+
+    .avatar{
+		@include wrapGridItem(10, 7);
+		width: 100px;
+
+    }
+
+    .title{
+        font-weight: 600;
+    }
+    .content{
+        @extend .text_gray;
+    }
+}

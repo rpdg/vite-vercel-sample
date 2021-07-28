@@ -1,0 +1,24 @@
+{
+	"dockIcons": {
+		"chat": "Chat",
+		"requests": "Meeting Requests",
+		"business": "Business Card",
+		"help": "Help",
+		"favourite": "Favourite",
+		"coupon": "Coupon Package",
+		"notification": "Notification",
+		"settings": "Settings"
+	},
+	"favourite": {
+		"contact": "Contact",
+		"products": "Products",
+		"company": "Company"
+	},
+	"meetingRequests": {
+		"online" : "Online",
+		"offline" : "Offline",
+		"waiting" : "Waiting",
+		"waiting_confirm" : "Waiting to confirm",
+		"invited_surfix" : " invited you to attend an online meeting"
+	}
+}

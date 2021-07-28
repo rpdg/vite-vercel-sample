@@ -1,5 +1,6 @@
+import timeStamp from 'consts:timeStamp';
 import { defineComponent } from 'vue';
-import styles from './index.module.css';
+import styles from './index.module.scss';
 export default defineComponent({
 	props: {
 		code: {
@@ -17,6 +18,7 @@ export default defineComponent({
 			<div class={styles.errorContainer}>
 				<h1>{props.code}</h1>
 				<span>{props.message}</span>
+				<p class={styles.buildInfo}>{`built on: ${timeStamp}`}</p>
 			</div>
 		);
 	},

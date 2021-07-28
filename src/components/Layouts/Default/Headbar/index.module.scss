@@ -1,0 +1,21 @@
+.headerWrap{
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    > .logo {
+        width: 230px;
+    }
+
+    >.gap{
+        flex: 1;
+    }
+
+    >.process{
+        // width: 200px;
+        // line-height: 42px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}

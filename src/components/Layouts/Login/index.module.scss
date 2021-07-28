@@ -1,0 +1,21 @@
+@import '@/common/styleVars.scss';
+
+.wapper {
+	padding: 40px 40px 60px;
+	height: 100%;
+	background-color: #3b282e;
+	background-image: url('./bg_login.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+	> .pannel {
+		width: 420px;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+
+		> div {
+			flex: 1;
+		}
+	}
+}
