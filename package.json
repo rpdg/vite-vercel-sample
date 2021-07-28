@@ -1,19 +1,56 @@
 {
-  "name": "vite",
-  "version": "0.1.0",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview"
-  },
-  "dependencies": {
-    "vue": "^3.1.4"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^1.2.4",
-    "@vitejs/plugin-vue-jsx": "^1.1.6",
-    "@vue/compiler-sfc": "^3.1.4",
-    "typescript": "^4.3.5",
-    "vite": "^2.4.3"
-  }
+	"name": "itb-plus-console",
+	"version": "1.0.0",
+	"author": {
+		"name": "Lyu PF",
+		"email": "pf_lyu@qq.com",
+		"url": "https://github.com/rpdg"
+	},
+	"license": "SP",
+	"scripts": {
+		"dev": "vite",
+		"build": "vue-tsc --noEmit && vite build",
+		"serve": "vite preview"
+	},
+	"dependencies": {
+		"ant-design-vue": "^2.2.2",
+		"axios": "^0.21.1",
+		"bootstrap": "^5.0.2",
+		"moment": "^2.27.0",
+		"vue": "^3.1.4",
+		"vue-class-component": "^8.0.0-rc.1",
+		"vue-i18n": "^9.1.7",
+		"vue-property-decorator": "^10.0.0-rc.3",
+		"vue-router": "^4.0.10",
+		"xgplayer": "^2.26.0"
+	},
+	"devDependencies": {
+		"@types/node": "^16.3.2",
+		"@vitejs/plugin-vue": "^1.2.5",
+		"@vitejs/plugin-vue-jsx": "^1.1.6",
+		"@vue/compiler-sfc": "^3.1.4",
+		"less": "^4.1.1",
+		"rollup-plugin-consts": "^1.0.2",
+		"sass": "^1.35.2",
+		"typescript": "^4.3.5",
+		"vite": "^2.4.3",
+		"vite-plugin-cdn-import": "^0.3.2",
+		"vite-plugin-components": "^0.13.2",
+		"vite-plugin-imp": "^2.0.7",
+		"vite-plugin-style-import": "^1.0.1",
+		"vue-tsc": "^0.2.2"
+	},
+	"browserslist": [
+		"last 2 Chrome versions",
+		"last 2 Firefox versions",
+		"last 2 Edge versions",
+		"last 2 Safari versions",
+		"last 2 Android versions",
+		"last 2 ChromeAndroid versions",
+		"last 2 FirefoxAndroid versions",
+		"last 2 iOS versions"
+	],
+	"engines": {
+		"node": ">=14"
+	}
 }

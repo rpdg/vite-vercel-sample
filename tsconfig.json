@@ -13,7 +13,8 @@
 		"paths": {
 			"@/*": ["src/*"]
 		},
-    "lib": ["esnext", "dom"]
+    "lib": ["esnext", "dom"],
+		"types": ["vite/client", "node"]
   },
 	"plugins": ["@vuedx/typescript-plugin-vue"],
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
