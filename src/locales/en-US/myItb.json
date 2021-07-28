@@ -24,6 +24,9 @@
 	"help": {
 		"enter": "Enter",
 		"contact_sponsor": "Contact the sponsor",
-		"want_settle": "I want to settle into"
+		"want_settle": "I want to settle into",
+		"shuttle_bus":"Shuttle bus services",
+		"hotel_services":"Hotel services",
+		"support":"Service & Support"
 	}
 }
