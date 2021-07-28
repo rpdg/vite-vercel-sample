@@ -1,4 +1,4 @@
-import HelloWorld from '@/components/HelloWorld.vue';
+import HelloWorld from '@/views/errors/404';
 import { defineComponent } from '@vue/runtime-core';
 import pic from './assets/logo.png';
 
@@ -7,7 +7,7 @@ export default defineComponent({
 		return () => (
 			<>
 				<img alt='Vue logo' src={pic} />
-				<HelloWorld msg='Hello Vue 3 + Vite + Tsx' />
+				<HelloWorld />
 			</>
 		);
 	},

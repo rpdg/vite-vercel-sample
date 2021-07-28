@@ -1,0 +1,22 @@
+﻿.errorContainer {
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	font-size: 24vmin;
+	font-weight: 100;
+	margin: 10px;
+}
+
+span {
+	font-size: 5vmin;
+}
+.buildInfo {
+	color: #999;
+	margin-top: 3em;
+	font-size: 4vmin;
+}
