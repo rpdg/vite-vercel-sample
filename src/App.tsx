@@ -7,7 +7,7 @@ export default defineComponent({
 		return () => (
 			<>
 				<img alt='Vue logo' src={pic} />
-				<HelloWorld msg='Hello Vue 3 + Vite' />
+				<HelloWorld msg='Hello Vue 3 + Vite + Tsx' />
 			</>
 		);
 	},
