@@ -4,7 +4,7 @@
 - Get the project code
 
 ```bash
-git clone <git-source> <dir>
+git clone <git-source> <target-dir>
 ```
 
 - Installation dependencies
