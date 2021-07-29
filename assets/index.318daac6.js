@@ -1,0 +1,2 @@
+import{f as t,g as e,u as o,e as n,p as a,a1 as r,s}from"./vendor.91bb4923.js";var i=t({name:"LoginSection",setup(){const{t:t}=e(),i=o();function l(){i.push("/login")}return()=>{let e;return n(a,{style:{marginTop:"28px"}},{default:()=>{return[n(r,{type:"primary",block:!0,onClick:l},(o=e=t("login.login"),"function"==typeof o||"[object Object]"===Object.prototype.toString.call(o)&&!s(o)?e:{default:()=>[e]}))];var o}})}}});export default i;
+//# sourceMappingURL=index.318daac6.js.map

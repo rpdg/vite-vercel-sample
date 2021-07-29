@@ -1,0 +1,2 @@
+import{f as t,g as e,e as o,F as r,s as a}from"./vendor.91bb4923.js";import{M as n}from"./MainSectionHead.d9482180.js";var s=t({name:"Login",setup(){const{t:t}=e();return()=>{let e;return o(r,null,[o(n,{redLead:!1},(s=e=t("menu.showFloor"),"function"==typeof s||"[object Object]"===Object.prototype.toString.call(s)&&!a(s)?e:{default:()=>[e]}))]);var s}}});export default s;
+//# sourceMappingURL=index.f23c5ba2.js.map
