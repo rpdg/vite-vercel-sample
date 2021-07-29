@@ -1,2 +1,0 @@
-import{f as e,e as r}from"./vendor.91bb4923.js";var s="_errorContainer_12ed2_1",o="_buildInfo_12ed2_17",a=e({props:{code:{type:Number,reuuired:!0},message:{type:String,required:!0}},name:"ErrorLayout",setup:(e,{slots:a})=>()=>r("div",{class:s},[r("h1",null,[e.code]),r("span",null,[e.message]),r("p",{class:o},["built on: 29/07/2021, 12:36:23"])])});export{a as E};
-//# sourceMappingURL=index.c12ce332.js.map
