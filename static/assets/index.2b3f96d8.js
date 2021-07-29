@@ -1,1 +1,0 @@
-import{a as e,g as o}from"./vendor.7b3e9c73.js";var t=Vue.defineComponent({name:"CouponSection",setup(){const{t:t}=e();return()=>Vue.createVNode(o,{title:t("myItb.dockIcons.coupon"),style:{marginTop:"28px"}},{default:()=>[Vue.createTextVNode("Coupon")]})}});export default t;
