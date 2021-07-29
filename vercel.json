@@ -2,7 +2,7 @@
 	"rewrites": [
         {
 			"source": "/api/:match*",
-			"destination": "https://jsonplaceholder.typicode.com/:match*"
+			"destination": "https://gz.lqtedu.com/:match*"
 		},
         {
 			"source": "/assets/:match*",
