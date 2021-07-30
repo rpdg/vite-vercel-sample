@@ -1,7 +1,0 @@
-{
-	"main": "service.ts",
-	"dependencies": {
-	},
-	"devDependencies": {
-	}
-}
