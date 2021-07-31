@@ -1,1 +1,0 @@
-import{a as e,g as t}from"./vendor.0458fb05.js";var s=Vue.defineComponent({name:"BusinessCardSection",setup(){const{t:s}=e();return()=>Vue.createVNode(t,{title:s("myItb.dockIcons.business")},{default:()=>[Vue.createTextVNode("Cards")]})}});export{s as default};
