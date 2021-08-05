@@ -1,0 +1,1 @@
+var t={picTextDiv:"_picTextDiv_m0i27_1",title:"_title_m0i27_8",verticalListItem:"_verticalListItem_m0i27_22",avatar:"_avatar_m0i27_25",content:"_content_m0i27_38",contactList:"_contactList_m0i27_42",contactListItem:"_contactListItem_m0i27_53",profile:"_profile_m0i27_62",iconBar:"_iconBar_m0i27_69"};export{t as s};

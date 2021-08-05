@@ -1,1 +1,0 @@
-import{a as e,g as t}from"./vendor.0458fb05.js";var a=Vue.defineComponent({name:"ChatSection",setup(){const{t:a}=e();return()=>Vue.createVNode(t,{title:a("myItb.dockIcons.chat")},{default:()=>[Vue.createTextVNode("老王说放在最后做哒")]})}});export{a as default};
