@@ -1,1 +1,0 @@
-import{a as e,g as t}from"./vendor.98a6c741.js";var a=Vue.defineComponent({name:"ChatSection",setup(){const{t:a}=e();return()=>Vue.createVNode(t,{title:a("myItb.dockIcons.chat")},{default:()=>[Vue.createTextVNode("chat")]})}});export{a as default};
