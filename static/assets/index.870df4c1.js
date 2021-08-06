@@ -1,0 +1,1 @@
+import{f as e,e as r}from"./vendor.41ef0d25.js";var s="_errorContainer_12ed2_1",a="_buildInfo_12ed2_17",o=e({props:{code:{type:Number,reuuired:!0},message:{type:String,required:!0}},name:"ErrorLayout",setup:(e,{slots:o})=>()=>r("div",{class:s},[r("h1",null,[e.code]),r("span",null,[e.message]),r("p",{class:a},["Updated 2021/08/06 13:59:35"])])});export{o as E};
