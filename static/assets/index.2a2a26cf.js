@@ -1,0 +1,1 @@
+import{M as e}from"./MainSectionHead.1b13f8e9.js";import{f as t,g as o,e as a,q as r,F as n}from"./vendor.fa50ff7c.js";var s=t({name:"Login",setup(){const{t:t}=o();return()=>{let o;return a(n,null,[a(e,{redLead:!1},(s=o=t("menu.showFloor"),"function"==typeof s||"[object Object]"===Object.prototype.toString.call(s)&&!r(s)?o:{default:()=>[o]}))]);var s}}});export{s as default};
