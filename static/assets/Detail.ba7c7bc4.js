@@ -1,0 +1,1 @@
+import{a7 as a,a5 as e,a4 as r,M as t}from"./@vue.d2268549.js";var u=a({name:"ProductDetail",props:{productId:{type:Number,required:!0}},setup:()=>()=>e(t,null,[r("ProductDetail")])});export{u as default};
