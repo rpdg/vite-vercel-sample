@@ -1,1 +1,0 @@
-var _={listItem:"_listItem_7or3q_2",avatar:"_avatar_7or3q_5",round:"_round_7or3q_14",title:"_title_7or3q_21",content:"_content_7or3q_24",short:"_short_7or3q_27",helpItem:"_helpItem_7or3q_40",noticeTime:"_noticeTime_7or3q_72"};export{_ as s};

@@ -1,1 +1,0 @@
-var t={picTextDiv:"_picTextDiv_13fny_1",title:"_title_13fny_8",verticalListItem:"_verticalListItem_13fny_22",avatar:"_avatar_13fny_25",content:"_content_13fny_38",contactList:"_contactList_13fny_42",contactListItem:"_contactListItem_13fny_53",profile:"_profile_13fny_62",iconBar:"_iconBar_13fny_73"};export{t as s};
