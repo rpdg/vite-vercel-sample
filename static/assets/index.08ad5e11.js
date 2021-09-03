@@ -1,1 +1,0 @@
-import{a2 as e,a0 as r}from"./@vue.5723de44.js";var s="_errorContainer_12ed2_1",a="_buildInfo_12ed2_17",o=e({props:{code:{type:Number,reuuired:!0},message:{type:String,required:!0}},name:"ErrorLayout",setup:(e,{slots:o})=>()=>r("div",{class:s},[r("h1",null,[e.code]),r("span",null,[e.message]),r("p",{class:a},["Updated 2021/09/03 10:34:35"])])});export{o as E};
