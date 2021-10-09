@@ -1,0 +1,1 @@
+const t="_listItem_q0dgp_2",_="_avatar_q0dgp_5",e="_round_q0dgp_17",o="_title_q0dgp_24",n="_content_q0dgp_27",s="_short_q0dgp_30",c="_helpItem_q0dgp_43",i="_noticeTime_q0dgp_80";var p={listItem:t,avatar:_,round:e,title:o,content:n,short:s,helpItem:c,noticeTime:i};export{p as s};

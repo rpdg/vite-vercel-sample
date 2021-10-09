@@ -1,0 +1,1 @@
+const t="_picTextDiv_1mvvc_1",c="_title_1mvvc_11",v="_verticalListItem_1mvvc_25",i="_avatar_1mvvc_28",_="_content_1mvvc_44",o="_contactList_1mvvc_48",n="_contactListItem_1mvvc_59",a="_profile_1mvvc_68",e="_iconBar_1mvvc_79";var s={picTextDiv:t,title:c,verticalListItem:v,avatar:i,content:_,contactList:o,contactListItem:n,profile:a,iconBar:e};export{s};
