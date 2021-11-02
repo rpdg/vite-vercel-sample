@@ -1,1 +1,0 @@
-import{E as e}from"./index.80a0b159.js";import{k as o}from"./@vue.5a203696.js";import"./vue-i18n.91e137c0.js";import"./@intlify.e6447313.js";import"./source-map.3671d69c.js";import"./vue.a418a381.js";const p=()=>o(e,{code:404,message:"Page not found"},null);export{p as default};
