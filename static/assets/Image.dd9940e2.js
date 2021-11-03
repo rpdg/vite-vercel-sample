@@ -1,1 +1,0 @@
-import{B as a}from"./BlankGif.8ca146ab.js";import{S as f}from"./Config.87ac60ee.js";function r(e="",i=a){let t;if(e)e.indexOf("http://")===0||e.indexOf("https://")===0||e.indexOf("//")===0?t=e:t=`${f}${e.replace(/\\/g,"/")}`;else return i;return t}export{r as p};
