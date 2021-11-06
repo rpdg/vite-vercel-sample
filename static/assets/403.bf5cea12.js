@@ -1,1 +1,0 @@
-import{E as e}from"./index.41666950.js";import{k as o}from"./@vue.7a36ac42.js";import"./vue-i18n.532c4af8.js";import"./@intlify.9c0a92d2.js";import"./source-map.3671d69c.js";import"./vue.a54dcdd3.js";const d=()=>o(e,{code:403,message:"Not permitted"},null);export{d as default};
