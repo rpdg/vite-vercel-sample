@@ -1,1 +1,0 @@
-const t="_listItem_1n8ye_2",e="_avatar_1n8ye_5",n="_round_1n8ye_16",_="_title_1n8ye_23",o="_content_1n8ye_26",s="_short_1n8ye_29",c="_helpItem_1n8ye_42",i="_noticeTime_1n8ye_79";var a={listItem:t,avatar:e,round:n,title:_,content:o,short:s,helpItem:c,noticeTime:i};export{a as s};
