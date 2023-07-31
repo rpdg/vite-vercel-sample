@@ -1,1 +1,0 @@
-const r="_card_1rfq8_1",o="_thumb_1rfq8_7",s="_title_1rfq8_19",_="_scrollWrapper_1rfq8_33",t="_roundcorner_1rfq8_38",c="_sponsorImage_1rfq8_42";var n={card:r,thumb:o,title:s,scrollWrapper:_,roundcorner:t,sponsorImage:c};export{n as s};
